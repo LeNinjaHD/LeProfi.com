@@ -8,7 +8,7 @@ Responsive Startseite für Airspace Monitor, IGC Viewer und AircraftManager. Rei
 docker compose up -d --build
 ```
 
-Anschließend unter http://localhost:8080 öffnen. Der Container liefert die Seite mit Apache HTTP Server aus. Den Host-Port bei Bedarf in `compose.yaml` ändern. Ein vorgeschalteter Reverse Proxy kann auf diesen Port weiterleiten.
+Anschließend unter http://localhost:8089 öffnen. Der Container liefert die Seite mit Apache HTTP Server aus. Den Host-Port bei Bedarf in `compose.yaml` ändern. Ein vorgeschalteter Reverse Proxy kann auf diesen Port weiterleiten.
 
 ## Zieladressen konfigurieren
 
