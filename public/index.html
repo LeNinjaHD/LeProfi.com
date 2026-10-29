@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f3f2ec">
+  <meta name="description" content="Dein Einstieg in Airspace Monitor, IGC Viewer und AircraftManager.">
+  <title>LeProfi — Dein Cockpit</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="config.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <div class="page">
+    <header class="header">
+      <a class="brand" href="./" aria-label="LeProfi Startseite"><span class="brand-icon">↗</span> LeProfi<span class="brand-dot">.</span></a>
+      <span class="header-label">AVIATION TOOLKIT <span class="small-cross">✳</span></span>
+    </header>
+    <main>
+      <section class="intro" aria-labelledby="title">
+        <div class="intro-copy">
+          <p class="eyebrow"><span></span> DEIN DIGITALER HANGAR</p>
+          <h1 id="title">Alles bereit.<br>Wohin geht’s<span class="accent">?</span></h1>
+          <p class="intro-text">Lufträume im Blick. Flüge im Detail. Deine Flotte im Griff.<br class="desktop-break"> Wähle dein Tool und starte durch.</p>
+        </div>
+        <div class="flight-art" aria-hidden="true">
+          <svg viewBox="0 0 400 300" fill="none"><circle cx="205" cy="148" r="113"/><circle cx="205" cy="148" r="77"/><circle cx="205" cy="148" r="40"/><path class="grid" d="M205 10v276M67 148h276"/><path class="route" d="M32 246c85 0 72-145 145-132s52 111 109 59 27-100 78-126"/><g class="plane" transform="translate(283 170) rotate(41)"><path d="M0-29 7-7 30 9v6L6 7 5 24 13 30v4L0 29-13 34v-4l8-6 1-17-24 8V9L-7-7Z"/></g><circle class="point" cx="33" cy="246" r="4"/><path d="M75 42h14M82 35v14M336 241h14M343 234v14"/><text x="53" y="273">YOUR NEXT DESTINATION</text></svg>
+        </div>
+      </section>
+      <section class="tools" aria-label="Anwendungen auswählen">
+        <a class="tool-card airspace" data-tool="airspace" href="https://airspace.leprofi.com">
+          <div class="card-top"><span class="tool-number">01 / LUFTRAUM</span><span class="arrow" aria-hidden="true">↗</span></div>
+          <div class="tool-visual radar" aria-hidden="true"><svg viewBox="0 0 160 120" fill="none"><circle cx="80" cy="60" r="47"/><circle cx="80" cy="60" r="30"/><circle cx="80" cy="60" r="13"/><path d="M80 8v104M28 60h104M80 60l33-33"/><path class="radar-sector" d="M80 60V13a47 47 0 0 1 33 14Z"/><circle class="blip" cx="101" cy="40" r="4"/><circle class="blip" cx="57" cy="77" r="3"/></svg></div>
+          <h2>Airspace Monitor</h2><p>Den Luftraum verstehen.<br>Den Überblick behalten.</p>
+          <div class="card-bottom"><span>Lufträume entdecken</span><span aria-hidden="true">→</span></div>
+        </a>
+        <a class="tool-card igc" data-tool="igc" href="https://igc.leprofi.com">
+          <div class="card-top"><span class="tool-number">02 / FLUGANALYSE</span><span class="arrow" aria-hidden="true">↗</span></div>
+          <div class="tool-visual track" aria-hidden="true"><svg viewBox="0 0 160 120" fill="none"><path class="terrain" d="m10 91 30-34 22 19 29-44 24 27 35-15M10 106h140"/><path class="flight-track" d="M20 88c17-10 8-54 34-45s-5 40 21 25 10-47 38-45 9 43 29 20"/><circle cx="20" cy="88" r="4"/><circle cx="142" cy="43" r="4"/></svg></div>
+          <h2>IGC Viewer</h2><p>Jeder Flug eine Geschichte.<br>Entdecke sie im Detail.</p>
+          <div class="card-bottom"><span>Flüge analysieren</span><span aria-hidden="true">→</span></div>
+        </a>
+        <a class="tool-card aircraft" data-tool="aircraft" href="https://ls3.leprofi.com">
+          <div class="card-top"><span class="tool-number">03 / FLOTTE</span><span class="arrow" aria-hidden="true">↗</span></div>
+          <div class="tool-visual fleet" aria-hidden="true"><svg viewBox="0 0 160 120" fill="none"><path class="hangar" d="M18 101V48l62-29 62 29v53M31 101V56h98v45M13 102h134"/><path class="aircraft-shape" d="m80 39 5 29 35 13v5l-35-6-1 15 10 5v3l-14-3-14 3v-3l10-5-1-15-35 6v-5l35-13Z"/></svg></div>
+          <h2>AircraftManager</h2><p>Deine Flugzeuge. Ein Platz.<br>Alles unter Kontrolle.</p>
+          <div class="card-bottom"><span>Flotte verwalten</span><span aria-hidden="true">→</span></div>
+        </a>
+      </section>
+    </main>
+    <footer><span>© <span id="year">2026</span> LeProfi</span><span>THE SKY IS NOT THE LIMIT.</span><span class="footer-coordinate" aria-hidden="true">+ &nbsp; + &nbsp; +</span></footer>
+  </div>
+</body>
+</html>
